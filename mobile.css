@@ -1,0 +1,54 @@
+/* Below 767px (mobile) */
+/**************************/
+@media (max-width: 48em) {
+  .grid-4-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .trill {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .trill p {
+    width: 40%;
+    line-height: 2;
+  }
+  .low {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .sale-1 {
+    border: none;
+  }
+
+  .cert,
+  .cert-0 {
+    border: none;
+  }
+  .section {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  .height {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .alt-4 {
+    width: 100%;
+  }
+
+  .alt {
+    border: none;
+  }
+
+  .row {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
